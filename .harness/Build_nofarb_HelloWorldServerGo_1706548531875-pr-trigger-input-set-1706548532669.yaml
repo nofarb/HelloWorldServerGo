@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nofarb_HelloWorldServerGo_1706548531875-pr-trigger-input-set
+  identifier: Build_nofarb_HelloWorldServerGo_1706548531875prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nofarb_HelloWorldServerGo_1706548531875
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
