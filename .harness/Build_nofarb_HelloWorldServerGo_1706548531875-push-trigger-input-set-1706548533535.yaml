@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nofarb_HelloWorldServerGo_1706548531875-push-trigger-input-set
+  identifier: Build_nofarb_HelloWorldServerGo_1706548531875pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nofarb_HelloWorldServerGo_1706548531875
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
